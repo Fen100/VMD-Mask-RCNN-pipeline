@@ -9,14 +9,28 @@ This repository includes:
 * Train and Validation datasets
 
 ## Dependencies
-### Mask R-CNN libraries
-....
+### Mask R-CNN requirements.txt
+* numpy
+* scipy
+* Pillow
+* cython
+* matplotlib
+* scikit-image==0.16.2
+* tensorflow==1.15
+* keras==2.2.5
+* opencv-python
+* h5py==2.10.0
+* imgaug
+* IPython[all]
+
+These exact scikit-image, tensorflow, keras and h5py versions are required to work with the Mask R-CNN Matterport repository.
 
 ### Setup on a Windows PC
-* Windows 10 64
-* NVIDIA graphics card ..... (invullen)
-* Anaconda with Python (>..)
-* Tensorflow 1.15 with GPU
-* CUDA ..
-* CuDNN .....
-* Keras .....
+This is the set up that I used to run the model:
+* Windows 10 64bit
+* NVIDIA graphics card GeForce RTX 2070 Super
+* Anaconda with Python 3.7.11
+* CUDA 10.0
+* CuDNN 7.6.5
+
+This exact version of CUDA is required to work with the Mask R-CNN Matterport repository.
