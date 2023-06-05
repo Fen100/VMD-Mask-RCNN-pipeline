@@ -6,7 +6,10 @@ This repository includes:
 * Source code of Mask R-CNN built on FPN and ResNet101
 * Pre-trained weights for MS COCO
 * A Jupyter notebook to run the VMD pipeline
-* Train and Validation datasets
+* Zipped folder with Train and Validation datasets named 'Annotationdata'
+* Zipped folder with Test dataset named 'test'
+
+The train, validation and test datasets were annotated with VGG Image Annotator. The annotations are .json files.
 
 ## Dependencies
 ### Mask R-CNN requirements.txt
