@@ -4,7 +4,6 @@ This GitHub repository contains the pipeline for detecting and segmenting sand m
 ## Contents
 This repository includes:
 * Source code of Mask R-CNN built on FPN and ResNet101
-* Pre-trained weights for MS COCO
 * A Jupyter notebook to run the VMD pipeline
 * Zipped folder with Train and Validation datasets named 'Annotationdata'
 * Zipped folder with Test dataset named 'test'
